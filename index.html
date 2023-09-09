@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
+    <title>Prestamo</title>
+</head>
+<body>
+    <header class="header_principal">
+        <h1 class="contenedor_nombre_principal">
+            SIMULADOR PRESTAMOS
+        </h1>
+    </header>
+    <nav class="barra_navegacon_principal">
+        <ul><li><a href="">Inicio</a></li></ul>
+        <ul><li><a href="">contacto</a></li></ul>
+        <ul><li><a href="">Tasa fija</a></li></ul>
+        <ul><li><a href="">Quienes Somos</a></li></ul>
+    </nav>
+    <main class="main_inicio">
+        <aside class="contendor_inicio_seccion">
+                <form id="form_inicio_session">
+                    <label for="">Usuario</label>
+                    <input id="usuarioIngresado" type="text">
+
+                    <label for="">Contraseña</label>
+                    <input id="passwordIngresada" type="password">
+
+                    <input type="submit" value="Ingresar">
+                    <a href="/pages/registro.html">Registrase</a>
+                </form>
+        </aside>
+        
+        <section class="contendor_seccion">
+            <h2 class="titulo_formulario">
+                Simular Prestamo
+                <p class="error-text">
+                    Le realizaremos unas preguntas antes de continuar
+                </p>
+            </h2>
+            <form id="formularioInicio">
+                <label for="nombre">Nombre</label>
+                <input id="nombreUsuario" name="nombre" type="text">
+
+                <label for="apellido">Apellido</label>
+                <input id="apellidoUsuario" name="apellido" type="text">
+
+                <label for="mail">Mail</label>
+                <input id="mailUsuario" name="mail" type="email">
+                
+                <label for="">Fecha de nacimiento</label>
+                <input  id="fechaNaciminetoUsuario" type="date">
+
+                <label for="nacionalidad">Nacionalidad</label>
+                <input id="nacionalidadUsuario" name="nacionalidad" type="checkbox">
+                
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+      <script src="/js/app.js"></script>
+    <script src="/js/seccion.js"></script>
+    <script src="/js/pruebas.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
+    <title>registrarse</title>
+</head>
+<body>
+    <header class="header_principal">
+        <h1 class="contenedor_nombre_principal">
+            SIMULADOR PRESTAMOS
+        </h1>
+    </header>
+    <nav class="barra_navegacon_principal">
+        <ul><li><a href="">Inicio</a></li></ul>
+        <ul><li><a href="">contacto</a></li></ul>
+        <ul><li><a href="">Tasa fija</a></li></ul>
+        <ul><li><a href="">Quienes Somos</a></li></ul>
+    </nav>
+    <main class="main_inicio">
+        <section class="contenedor_from_inicio">
+            <h2 class="titulo_formulario">
+                Nuevo Usuario
+            </h2>
+            <form id="form_registro">
+                <label for="nombre">Usuario</label>
+                <input id="nuevoUsuario" name="nombre" type="text">
+
+                <label for="apellido">Contraseña</label>
+                <input id="nuevoContraseña" name="apellido" type="text">
+
+                <label for="apellido">Repetir contraseña</label>
+                <input id="repetirContraseña" name="apellido" type="text">
+
+                <label for="mail">Mail</label>
+                <input id="mailNuevoUsuario" name="mail" type="email">
+                
+                <label for="">Fecha de nacimiento</label>
+                <input  id="fechaDeNacimientoNuevoUsuario" type="date">
+
+                <label for="nacionalidadNuevoUsuario">Nacionalidad</label>
+                <select name="paises" id="nacionalidadNuevoUsuario">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="México">México</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Panamá">Panamá</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Puerto Rico">Puerto Rico</option>
+                    <option value="República Dominicana">República Dominicana</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select>
+                
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>
+            Todos los derechos reservados
+            
+        </h3>
+    </footer>
+    <script src="/js/registro.js"></script>
+</body>
+</html>
